@@ -1,10 +1,30 @@
+@import "~antd/dist/antd.css";
+
 .App {
   text-align: center;
+  padding: 20px;
+  border: 1px solid #c4c4ca;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .people-picker {
+  border: 1px solid #9b9595 !important;
+  padding: 10px 0px 5px 5px !important;
+}
+
+.App > * {
+  padding: 15px;
+}
+
+body {
+  margin: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #efeff4 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,15 +44,10 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.person-cls {
+  text-align: justify;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rootcls {
+  margin: 50px;
 }
